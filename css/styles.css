@@ -648,72 +648,6 @@ justify-content: center;
     text-align: center; 
 }
 
-/* footer */
-.footer{
-    padding: 100px 0;
-    background: var(--navy-blue-modal);
-}
-/* footer text */
-
-.footer-text{
-    width: 264px;
-    letter-spacing: 0.02em;
-    color: var(--cloud);
-}
-.logo-item-studio{
-    display: inline-block;
-    font-family: "Raleway",sans-serif;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--cloud);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17 ;
-
-}
-/* footer social */
-.flex{
-    display: flex;
-    align-items: baseline;
-    gap: 120px;
-}
-
-.text-media{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--white);
-margin-bottom: 16px;
-
-}
-.social-list{
-    display: flex;
-    gap: 16px; 
-
-}
-.li-footer{
-width: 40px; 
-height: 40px;
-
-}
-.link-footer{
-    width: 100%;
-    height: 100%; 
-    background-color:var(--iris);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-footer:hover,
-.link-footer:focus{
-    background-color: var(--green); 
-}
-.footer-icon{
-    fill: var(--cloud);
-}
 
 /* Contacts Submit order Servise */
 .label-js{
@@ -784,7 +718,6 @@ height: 40px;
 }
 .input-checkbox{
     position: absolute;
-    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -800,7 +733,7 @@ height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
 }
-.checkbox:checked ~ .span-checkbox{
+.input-checkbox:checked ~ .span-checkbox{
     background-size: contain;
     border-radius: 2px;
     border: none;
@@ -831,4 +764,129 @@ height: 40px;
 .btn-submit:hover,
 .btn-submit:focus{
   background: #404BBF;
+}
+/* footer */
+.footer{
+    padding: 100px 0;
+    background: var(--navy-blue-modal);
+}
+/* footer text */
+
+.footer-text{
+    width: 264px;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
+.logo-item-studio{
+    display: inline-block;
+    font-family: "Raleway",sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17 ;
+
+}
+/* footer social */
+.flex{
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
+
+.text-media{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--white);
+margin-bottom: 16px;
+
+}
+.social-list{
+    display: flex;
+    gap: 16px; 
+
+}
+.li-footer{
+width: 40px; 
+height: 40px;
+
+}
+.link-footer{
+    width: 100%;
+    height: 100%; 
+    background-color:var(--iris);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-footer:hover,
+.link-footer:focus{
+    background-color: var(--green); 
+}
+.footer-icon{
+    fill: var(--cloud);
+}
+
+/* footer subcribe */
+.footer-modal button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 16px;
+    
+    width: 165px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer-modal button:focus,
+  .footer-modal button:hover{
+    background-color: #404bbf;
+  }
+.subcribe-text{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.form-footer{
+    position: relative;
+    display: flex;
+    gap: 24px;
+}
+.footer-input{
+    padding: 8px;
+    padding-left: 16px;
+    width: 264px;
+    height: 40px;
+    color:#ffffff;
+    background: none;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+.footer-input:focus{
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
+  }
+  .footer-input::placeholder{
+    color: #FFFFFF;
+  }
+.icon-send{
+
 }
