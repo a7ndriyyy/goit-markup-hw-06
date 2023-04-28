@@ -801,11 +801,11 @@ height: 40px;
     border-radius: 2px;
 }
 .checkbox:checked ~ .span-checkbox{
-    background-image: url(../images/checkbox.svg);
-    background-size:contain;
-    border: none;
+    background-size: contain;
     border-radius: 2px;
-  }
+    border: none;
+    background-image: url(../images/checkbox.svg);
+}
   .checkbox:focus ~ .span-checkbox{
      outline: 1px solid rgba(46, 47, 66, 0.4);
      border-radius: 2px;     
