@@ -650,6 +650,17 @@ justify-content: center;
 
 
 /* Contacts Submit order Servise */
+.title-contacts{
+ font-family: "Roboto";
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 24px;
+ text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+margin-bottom: 8px;
+}
 .label-js{
     position: relative;
     display: flex;
@@ -715,6 +726,8 @@ justify-content: center;
     line-height: 1.7;
     letter-spacing: 0.04em;
     color: #8E8F99;
+    margin-top: 20px;
+
 }
 .input-checkbox{
     position: absolute;
@@ -745,7 +758,14 @@ justify-content: center;
   }
   
 .span-policy{
-
+     font-family: 'Roboto';
+      font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+     line-height: 16px;
+    color: #4D5AE5;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
 }
 /* BTN SUBMIT */
 .btn-submit{
@@ -833,13 +853,16 @@ height: 40px;
 }
 
 /* footer subcribe */
+.footer-modal{
+    margin-left: -60px;
+}
 .footer-modal button{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px 24px;
     gap: 16px;
-    
+
     width: 165px;
     font-weight: 500;
     font-size: 16px;
@@ -849,8 +872,8 @@ height: 40px;
     color: #FFFFFF;
     background: #4D5AE5;
     border: none;
-  border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .footer-modal button:focus,
   .footer-modal button:hover{
