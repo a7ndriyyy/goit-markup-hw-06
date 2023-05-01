@@ -720,8 +720,6 @@ margin-bottom: 8px;
 .label-checkbox{
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 24px;
     font-weight: 400;
     font-size: 12px;
