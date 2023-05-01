@@ -685,6 +685,8 @@ margin-bottom: 8px;
     position: absolute;
     top: 50%;;
     left: 19px;
+    align-items: center;
+    justify-content: center;
 }
 .input-modal{
     padding: 11px;
