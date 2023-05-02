@@ -45,7 +45,6 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-   /* outline:2px solid red; */
    outline-offset: -2px;
 }
 
@@ -665,12 +664,15 @@ margin-bottom: 8px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.7;
     letter-spacing: 0.04em;
     color: #8E8F99;
+}
+.retreat{
+    margin-bottom: 4px;
 }
 .label-js:focus-within{
     fill: #404bbf;
@@ -788,6 +790,12 @@ margin-bottom: 8px;
   background: #404BBF;
 }
 /* footer */
+.div-footer{
+    /* margin-right: 120px; */
+}
+.social-footer{
+    /* margin-right: 80px; */
+}
 .footer{
     padding: 100px 0;
     background: var(--navy-blue-modal);
